@@ -50,6 +50,7 @@ async function bootGame() {
       menu: true,
       splashScreen: false,
       unmuteOverlay: "hidden",
+      PlayerRuntime: "air",
       warnOnUnsupportedContent: false
     });
 
@@ -76,6 +77,7 @@ window.RufflePlayer.config = {
   menu: true,
   splashScreen: false,
   unmuteOverlay: "hidden",
+  PlayerRuntime: "air",
   warnOnUnsupportedContent: false
 };
 
